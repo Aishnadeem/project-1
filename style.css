@@ -1,0 +1,780 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    height: 200vh;
+
+
+}
+
+.main-content {
+    width: 96%;
+    height: 444px;
+    background-color: #2d2929;
+    /* background-color: aqua; */
+    padding: 20px 40px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.logo-box {
+    /* position: relative; */
+    position: absolute;
+    left: 40px;
+}
+
+.logo-img {
+    width: 35%;
+    height: 41%;
+    /* position: absolute; */
+}
+
+.nav-content {
+    position: absolute;
+    right: 40px;
+    /* padding: 41px 40px */
+    margin-top: 30px;
+}
+
+.nav-link {
+    display: inline;
+    font-weight: 70px;
+    /* color: white; */
+    margin-left: 15px;
+}
+
+#Touch {
+    background-color: black;
+    border: 1px solid white;
+    padding: 3px 6px;
+}
+
+.Get {
+    position: absolute;
+    margin: 35px 226px;
+    background-color: red;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* hero section */
+.hero-section {
+    position: relative;
+    margin-top: 173px;
+    margin-left: 322px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.hero-section h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: -10px;
+    margin-left: 213px;
+    font-size: 19px;
+}
+
+.boxes {
+    /* box-shadow: 5px 7px 12px green; */
+
+    /* color: black; */
+    padding: 0px 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px -51px;
+    /* background-color: white; */
+
+
+}
+
+.box1 {
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 150px;
+    padding: 20px 19px;
+    border-radius: 13px;
+
+}
+
+.box2 {
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 150px;
+    padding: 20px 19px;
+    border-radius: 13px;
+
+
+
+}
+
+.box3 {
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 150px;
+    padding: 20px 19px;
+    border-radius: 13px;
+
+}
+
+.box4 {
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 130px;
+    height: 150px;
+    padding: 20px 19px;
+    border-radius: 13px;
+
+}
+
+.boxes h2,
+p {
+    color: black;
+}
+
+.main-1 {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 620px;
+    display: flex;
+
+}
+
+.matter h2 {
+    color: black;
+}
+
+.matter {
+    width: 30%;
+    padding: 30px;
+}
+
+.matter a {
+    color: blue;
+}
+
+.moun-img {
+    width: 50%;
+}
+
+.img-one {
+    width: 70%;
+    padding: 30px;
+}
+
+.main-2 {
+    position: relative;
+    margin-top: 20PX;
+    display: flex;
+}
+
+.matter-2 h2 {
+    color: black;
+}
+
+.matter-2 {
+    width: 60%;
+    padding: 30px;
+}
+
+.hero {
+    position: relative;
+    margin-left: 600px;
+    width: 30%;
+    padding: 30px;
+}
+
+.co {
+    position: relative;
+    margin: 20px;
+    width: 30%;
+    padding: 30px;
+}
+
+.co h2 {
+    color: black;
+}
+
+.co a {
+    color: blue;
+}
+
+.matter-3 {
+    display: inline-block;
+    position: relative;
+    margin-left: 653px;
+    width: 30%;
+}
+
+.matter-3 h2 {
+    color: black;
+}
+
+/* .matter-3{
+    position: relative;
+    margin-left: 600px;
+} */
+.short-1 {
+    position: relative;
+    margin-top: -46px;
+    margin-left: 1150px;
+    width: 20%;
+}
+
+.short h5 {
+    color: black;
+}
+
+.short-1 h5 {
+    color: black;
+}
+
+.short {
+    position: relative;
+    margin-left: 70px;
+}
+
+
+.main-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 499px;
+    margin-top: 127px;
+    width: 62%;
+    height: 41vh;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.matter-4 {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.matter-4 p {
+    color: white;
+}
+
+.matter-5 {
+    /* background-color: rgb(248, 92, 26); */
+    height: 12vh;
+    width: 100%;
+    position: relative;
+    margin-top: 161px;
+}
+
+.Get-2 {
+    position: relative;
+    margin-left: 140px;
+    background-color: red;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.H-1 {
+    display: flex;
+    position: relative;
+    margin-left: 158px;
+    margin-top: 168px;
+    display: flex;
+    justify-content: center;
+    /* color: rgb(64, 38, 38); */
+}
+
+.H-1 h1 {
+    color: black;
+}
+
+
+.Box-11 {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    margin: 109px -83px;
+    height: 220px;
+    width: 87%;
+    /* background-color: antiquewhite; */
+
+}
+
+.Box-11 h2 {
+    color: black;
+}
+
+
+.b-1 {
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 170px;
+    padding: 20px 19px;
+    border-radius: 10px;
+    font-size: 14px;
+
+
+}
+
+.b-2 {
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 170px;
+    padding: 20px 19px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+
+}
+
+.b-3 {
+    background-color: white;
+    position: relative;
+    margin: 0px 12px;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 170px;
+    padding: 20px 19px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 7px 5px 22px rgb(212, 209, 209);
+
+
+}
+
+.A-bb {}
+
+.a2 {
+    box-shadow: 0px 0px 11px rgb(212, 209, 209);
+
+    background-color: white(244, 243, 240);
+    width: 222px;
+    height: 40px;
+    /* position: relative; */
+    margin-bottom: 100px;
+    position: absolute;
+    margin: 173px 492px;
+
+
+}
+
+.b2 {
+    box-shadow: 0px 0px 11px rgb(212, 209, 209);
+    width: 222px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 100px;
+    position: absolute;
+    margin: 173px 12px;
+    border-radius: 5px;
+
+
+}
+
+.c2 {
+    box-shadow: 0px 0px 11px rgb(212, 209, 209);
+    width: 222px;
+    height: 40px;
+    position: relative;
+    margin-bottom: 100px;
+    position: absolute;
+    margin: 173px 252px;
+    border-radius: 5px;
+}
+
+.A-bb {
+    /* display: flex;
+    justify-content:flex-end;
+    height: 230px;
+    width: 87%;
+    background-color: purple; */
+}
+
+.a2 p {
+    position: relative;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+
+.b2 p {
+    position: relative;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+
+.c2 p {
+    position: relative;
+    margin-top: 11px;
+    margin-left: 23px;
+}
+
+.matter-5 {
+    position: relative;
+    margin-top: 25px;
+}
+
+.matter-6 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    margin-top: 428px;
+    /* margin-left: 372px; */
+    width: 97%;
+    height: 40vh;
+    /* background-color: blueviolet; */
+}
+
+.main-6 {
+    width: 46%;
+    position: relative;
+    margin-left: 551px;
+}
+
+.main-6 h1 {
+    color: black;
+}
+
+.girl-img {
+    position: relative;
+    margin-top: 44px;
+    margin-left: 523px;
+
+}
+
+.img-g {
+    width: 76%;
+    height: 319PX;
+}
+
+.Girl-pic {
+    /* height: 450PX; */
+    width: 96%;
+    height: 567px;
+    /* border: 2PX solid BLACK; */
+    /* background-color: bisque; */
+    display: flex;
+    /* position: relative; */
+    margin: 70px 5px;
+
+}
+
+.img-111 {
+    width: 20%;
+    height: 184px;
+
+    position: absolute;
+    margin: 78px 547px;
+}
+
+.img-222 {
+    width: 10%;
+    height: 254px;
+    position: absolute;
+    margin: 42px 878px;
+}
+
+.img-333 {
+    width: 12%;
+    position: absolute;
+    margin: 98px 1065px;
+}
+
+.right {
+    position: relative;
+    margin: 334px 539px;
+    width: 26%;
+}
+
+.right h1 {
+    color: black;
+}
+
+.Right1 {
+    height: 1000px;
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    /* background-color: antiquewhite; */
+}
+
+.four-img {
+    width: 210px;
+    position: relative;
+    margin-left: 532px;
+    margin-top: 56px;
+}
+
+.five {
+    width: 30%;
+    position: relative;
+    margin: 0px 30px;
+}
+
+.five h1 {
+    color: black;
+}
+
+.watch {
+    width: 113%;
+}
+.Right8{
+    display: flex;
+    /* position: relative; */
+    /* koi masla ho to ye on krna  */
+
+}
+
+.six {
+    width: 23%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    position: relative;
+    margin-top: 653px;
+    margin-left: 530px;
+}
+.six h1{
+    color: black;
+}
+.seven-img{
+    width: 300px;
+}
+.s7-img{
+    width: 42%;
+    position: relative;
+    margin: 657px 35px;
+}
+.hand{
+    width: 900px;
+    height: 500px;
+    /* background-color: blueviolet; */
+    position: absolute;
+margin-top: -564px;
+margin-left: 500px;
+}
+.wat{
+    /* background-color: antiquewhite; */
+    width: 57%;
+    position: relative;
+    margin: 30px 35px;
+}
+.img-con{
+    /* background-color: antiquewhite; */
+    width: 83%;
+}
+.img-9{
+    position: relative;
+    width: 5%;
+    margin: -60px 32px;
+    border-radius: 38PX;
+
+}
+.girl-matter{
+    position: relative;
+    margin: 25px 80px;
+}
+.girl-matter H6{
+color: black;
+}
+.girl-matter p{
+    font-size: 12px;
+}
+
+.w99{
+    width: 92%;
+    height: 52vh;
+    position: relative;
+    margin-left: -100px;
+    margin-top: 100px;
+
+}
+.wt-co{
+    /* background-color: antiquewhite; */
+    width: 15%;
+    height: 20vh;
+}
+.wt{
+    position: relative;
+    margin: 115px -85px;
+    width: 569%;
+    height: 51vh;
+}
+.our{
+    position: relative;
+    margin: 369px 90px;
+    width: 60%;
+    height: 160px;
+}
+.sec2{
+    width: 66%;
+    /* height: 55px; */
+    position: relative;
+    margin: 100px 100px;
+
+}
+.sec2 h2{
+    color: black;
+}
+.Fr-pic{
+    /* display: flex; */
+    width: 50%;
+    height: 60%;
+    
+}
+.f2{
+    width: 30%;
+}
+.f4{
+    width: 90%;
+}
+    /* width: 12%; */
+
+.f6{
+    width: 69%;
+}
+.f8{
+    width: 163%;
+    height: 142px;
+}
+.f1{
+    position: absolute;
+    margin: 35px 35px;
+}
+.f3{
+    position: absolute;
+    margin: 35px 204px;
+}
+.f5{
+    width: 170px;
+    position: absolute;
+    margin: -58px 359px;
+}
+
+.f7{
+    width: 55px;
+    position: absolute;
+    margin: -286px 600px;
+    }
+    .f1 h5{
+        color: black;
+    }
+    .f1 p{
+        font-size: 10px;
+    }
+
+
+    .f3 h5{
+        color: black;
+    }
+    .f3 p{
+        font-size: 10px;
+    }
+
+
+    .f5 h5{
+        color: black;
+    }
+    .f5 p{
+        font-size: 10px;
+    }
+
+    .f7 h5{
+        color: black;
+    }
+    .f7 p{
+        font-size: 10px;
+    }
+    .p111{
+        /* display: flex */
+        position: relative;
+        margin-top: 225px;
+    }
+
+    .p222{
+        position: absolute;
+        margin-left: 607px;
+        margin-top: -286px;
+    }
+.p333{
+    width: 62%;
+    height: 134px;
+}
+.p222 h5{
+    color: black;
+}
+.p222 p{
+    font-size: 10px;
+}
+.last{
+    display: flex;
+    position: relative;
+    margin-top: 44%;
+    margin-left: 27%;
+    width: 53%;
+}
+.Exe{
+/* display: flex; */
+}
+.scale{
+    position: relative;
+    margin-left: 132px;
+    width: 67%;
+
+}
+.Marj{
+    width: 80%;
+    /* display: flex; */
+position: relative;
+margin-left: 11px;
+margin-top: 86px;
+}
+.alig{
+    font-size: 20px;
+}
+.Gett-2 {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 4px 7px;
+    font-size: 14px;
+}
+.alig{
+color: black;}
